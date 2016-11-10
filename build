@@ -1,0 +1,4 @@
+rm -rf dist
+mkdir -p dist/js
+browserify index.js > dist/js/index.js
+cp index.html dist/index.html
